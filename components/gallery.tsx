@@ -60,7 +60,8 @@ export default function Gallery() {
               alt={item.title}
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            {/* Mobile: Always visible, Desktop: Show on hover */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
               <h3 className="text-xl font-bold text-white">{item.title}</h3>
             </div>
           </div>

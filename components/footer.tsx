@@ -72,12 +72,12 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-border/50 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-foreground/60">
-          <p className="flex items-center gap-2">
-            © 2025 EliteMinds Portfolio. All rights reserved.
-          </p>
-          <p className="flex items-center gap-2">
+        <div className="border-t border-border/50 pt-6 text-center text-sm text-foreground/60 space-y-2">
+          <p className="flex items-center justify-center gap-2">
             Made with <span className="text-red-500">❤️</span> by FASTians
+          </p>
+          <p>
+            © 2025 EliteMinds Portfolio. All rights reserved.
           </p>
         </div>
       </div>
